@@ -3,9 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/currency.css">
     <title>Budget</title>
 </head>
 <body>
-    <div id="main"></div>
+    <div id="main">
+        <div class="currency_container">
+            <h1>Currency Exchanger</h1>
+            <div class="app">
+                <input id="value" type="text">
+                <label>From : </label>
+                <select id="from"></select>
+                <label>To :</label>
+                <select id="to"></select>
+                <button id="btn">Convert</button><br>
+             <p id="result"></p>
+         </div>
+
+        </div>
+    </div>
+    <script src="js/currency.js"></script>
 </body>
 </html>
